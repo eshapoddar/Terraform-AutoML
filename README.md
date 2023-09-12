@@ -9,6 +9,7 @@ The following resources are provisioned:
 3. Service account for AutoML access
 4. Cloud Storage bucket for images
 5. Vertex AI dataset for AutoML
+
 The main.tf file defines and configures these resources. The variables.tf contains input variables like region, account names, API list etc. to customize the deployment. 
 
 **Usage**
@@ -20,13 +21,15 @@ The main.tf file defines and configures these resources. The variables.tf contai
 6. Run terraform destroy when finished to tear down the resources.
 
 **Authentication**
+
 The scripts use programmatic authentication via the Terraform Google provider.
 Ensure your local system is authenticated by running gcloud auth application-default login.
 
 **Customization**
-● The AutoML model type can be changed by updating the Vertex AI dataset metadata schema URI.
-● Additional APIs can be enabled by adding to the required_apis list.
-● Resource names and properties can be adapted by modifying the variables.
+1. The AutoML model type can be changed by updating the Vertex AI dataset metadata schema URI.
+2.  Additional APIs can be enabled by adding to the required_apis list.
+3. Resource names and properties can be adapted by modifying the variables.
 
 **Documentation**
+
 For detailed comments explaining each resource, refer to main.tf. The Terraform Google Provider documentation can provide more information on configuring GCP resources.
