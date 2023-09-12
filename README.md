@@ -4,11 +4,11 @@ These Terraform scripts automate setting up cloud infrastructure on GCP for an e
 
 **Contents**
 The following resources are provisioned:
-● New GCP Project
-● Enablement of required APIs like AutoML, Vertex AI
-● Service account for AutoML access
-● Cloud Storage bucket for images
-● Vertex AI dataset for AutoML
+1. New GCP Project
+2. Enablement of required APIs like AutoML, Vertex AI
+3. Service account for AutoML access
+4. Cloud Storage bucket for images
+5. Vertex AI dataset for AutoML
 The main.tf file defines and configures these resources. The variables.tf contains input variables like region, account names, API list etc. to customize the deployment. 
 
 **Usage**
