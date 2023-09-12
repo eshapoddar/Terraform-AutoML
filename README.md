@@ -9,7 +9,7 @@ The following resources are provisioned:
 ● Service account for AutoML access
 ● Cloud Storage bucket for images
 ● Vertex AI dataset for AutoML
-The main.tf file defines and configures these resources. The variables.tf contains input variables like region, account names, API list etc. to customize the deployment.
+The main.tf file defines and configures these resources. The variables.tf contains input variables like region, account names, API list etc. to customize the deployment. 
 
 **Usage**
 1. Update variables.tf as needed for your environment.
