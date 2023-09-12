@@ -1,5 +1,6 @@
 # Terraform-AutoML
 Terraform scripts to automate infrastructure setup to create AutoML MLOPs Pipeline in GCP
+
 These Terraform scripts automate setting up cloud infrastructure on GCP for an end-to-end machine learning pipeline using AutoML Vision.
 
 **Contents**
